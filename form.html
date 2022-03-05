@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<form method="post">
+    <h3>Susisiekti</h3>
+    <table border="0">
+        <tr>
+            <td><label for="vardas">Vardas:</label></td>
+            <td>
+                <input id="vardas"
+                       type="text"
+                       name="vardas"
+                       placeholder="Vardenis">
+            </td>
+        </tr><tr>
+            <td><label for="pastas">El. Pastas:</label></td>
+            <td>
+                <input id="pastas"
+                       type="email"
+                       name="pastas"
+                       placeholder="vardenis@pavardenis.lt">
+            </td>
+        </tr><tr>
+            <td><label for="nuotrauka">Nuotrauka:</label></td>
+            <td>
+                <input id="nuotrauka"
+                       type="file"
+                       name="nuotrauka">
+            </td>
+        </tr><tr>
+            <td><label for="tipas">Tipas</label></td>
+            <td>
+                <select id="tipas" name="tipas">
+                    <option value="p">Privatus</option>
+                    <option value="j">Juridinis</option>
+                </select>
+            </td>
+        </tr><tr>
+            <td colspan="2"><label for="zinute">Zinute:</label></td>
+        </tr><tr>
+            <td colspan="2"><textarea id="zinute" name="zinute" placeholder="Zinute"></textarea></td>
+        </tr><tr>
+            <td colspan="2"><input type="checkbox" name="accept" /> Sutinku atiduoti savo inksta</td>
+        </tr><tr>
+            <td colspan="2">
+                <input type="radio" name="sex" value="female" /> Vyras
+                <input type="radio" name="sex" value="male" /> Moteris
+            </td>
+        </tr><tr>
+            <td colspan="2" align="right"><input type="submit" value="Siusti"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
