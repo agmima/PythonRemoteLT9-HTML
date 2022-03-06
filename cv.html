@@ -6,48 +6,60 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-<table border="1" width="100%">
-    <tr>
-        <td width="25%" height="40%" valign="top">
-            <img id="avatar" src="avatar.png">
-            <div align="center">Vardenis Pavardenis</div>
-            <ul>
-                <li><span class="detail-label">Email:</span> v.p@gmail.com</li>
-                <li><span class="detail-label">Metai:</span> 1999</li>
-            </ul>
-        </td>
-        <td rowspan="3"></td>
-        <td width="70%" valign="top">
+<div id="container">
+
+    <div id="profile-box">
+        <img src="images/img.png">
+        <div class="name">Vardenis Pavardenis</div>
+        <ul>
+            <li><span>Email:</span> v.p@gmail.com</li>
+            <li><span>Metai:</span> 1999</li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <div id="experience">
             <h1>Experience</h1>
             <ul>
-                <li>Kazkur 2010-2015</li>
-                <li>Kitur 2015-2020</li>
-                <li>Neaisku kur 2020-...</li>
+                <li>
+                    <span class="company">Kazkur</span>
+                    <span class="period">(2010-2015)</span>
+                    <div class="description">
+                        Labai sunkiai dirbau.
+                    </div>
+                </li>
+                <li>
+                    <span class="company">Kitur</span>
+                    <span class="period">(2015-2020)</span>
+                    <div class="description">
+                        Dar sunkiau dirbau.
+                    </div>
+                </li>
+                <li>
+                    <span class="company">Neaisku kur</span>
+                    <span class="period">(2020-)</span>
+                    <div class="description">
+                        Visai nedirbau.
+                    </div>
+                </li>
             </ul>
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="2"></td>
-        <td height="25%">
+        </div>
+        <div id="skills">
             <h1>Skills</h1>
             <ul>
                 <li>Ethical Hacking</li>
                 <li>XHRS</li>
                 <li>Networking</li>
             </ul>
-        </td>
-    </tr>
-    <tr>
-        <td valign="top">
+        </div>
+        <div id="contacts">
             <form>
                 <h1>Contact Me</h1>
                 <div>
-                    <label for="name">Name</label>
-                    <input id="name" name="name" type="text">
+                    <input name="name" type="text" placeholder="Name">
                 </div>
                 <div>
-                    <label for="email">Email</label>
-                    <input id="email" name="email" type="email"></div>
+                    <input name="email" type="email" placeholder="Email"></div>
                 <div>
                     <label for="message">Message:</label><br/>
                     <textarea id="message" name="message"></textarea>
@@ -55,19 +67,10 @@
                 <div align="right">
                     <input type="submit" value="send">
                 </div>
-                <div class="some-class">
-                    <div>sdf</div>
-                    <p>test</p>
-                </div>
-                <div class="some-class">
-                    <div>sdf</div>
-                    <p>test</p>
-                </div>
-                <div class="some-class">dfg</div>
-                <p class="some-class">fgh</p>
             </form>
-        </td>
-    </tr>
-</table>
+        </div>
+    </div>
+
+</div>
 </body>
 </html>

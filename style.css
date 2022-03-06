@@ -1,50 +1,78 @@
-/*body {
-    background-image: url("wireframe.png");
-    background-repeat: no-repeat;
-}*/
-
-#avatar {
-    width: 100%;
-    border: 1px solid green;
+#profile-box {
+    float: left;
+    width: 180px;
+    border: 1px solid black;
+    padding: 10px;
 }
 
-.detail-label {
-    color: red;
-    font-size: 25px;
+#profile-box > img {
+    width: 150px;
+    height: 150px;
+    margin: 0 25px;
 }
 
-input[type="email"] {
-    background-color: blue;
+#profile-box > .name {
+    text-align: center;
+    font-weight: bold
 }
 
-/*p[title="bla"]#test.test-class {
-    color: red;
+#profile-box > ul {
+    padding: 0;
+    list-style-type: none;
 }
 
-p.some-class {
-    color: red;
-}*/
-
-.some-class {
-    color: red;
+#profile-box span {
+    font-weight: bold;
 }
 
-p.some-class {
-    color: orange;
+#container {
+    width: 1000px;
 }
 
-.some-class > p {
-    color: green;
+#content {
+    float: right;
+    width: 760px;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: sans-serif;
 }
 
-.exp-one {
-    color: red
+#content > div {
+    clear: left;
 }
 
-.exp-two {
-    color: blue;
+#content ul {
+    padding: 0;
+    list-style-type: none;
 }
 
-.exp-three {
-    color: green;
+#content ul > li {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #CACACA;
+}
+
+#skills ul > li {
+    float: left;
+    margin-right: 10px;
+}
+
+#experience .company, #experience .period {
+    font-weight: bold;
+}
+
+#contacts {
+    width: 220px;
+}
+
+#contacts input, #contacts textarea {
+    width: 200px;
+    margin: 5px;
+    padding: 2px;
+}
+
+#contacts input[type="submit"] {
+    width: 80px;
+    margin: 5px;
+    padding: 2px;
 }
