@@ -3,23 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <!--<style>
-        body {
-            background-image: url("wireframe.png");
-            background-repeat: no-repeat;
-        }
-
-    </style>-->
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 <table border="1" width="100%">
     <tr>
         <td width="25%" height="40%" valign="top">
-            <img src="avatar.png" width="100%">
+            <img id="avatar" src="avatar.png">
             <div align="center">Vardenis Pavardenis</div>
             <ul>
-                <li>Email: v.p@gmail.com</li>
-                <li>Metai: 1999</li>
+                <li><span class="detail-label">Email:</span> v.p@gmail.com</li>
+                <li><span class="detail-label">Metai:</span> 1999</li>
             </ul>
         </td>
         <td rowspan="3"></td>
@@ -61,6 +55,16 @@
                 <div align="right">
                     <input type="submit" value="send">
                 </div>
+                <div class="some-class">
+                    <div>sdf</div>
+                    <p>test</p>
+                </div>
+                <div class="some-class">
+                    <div>sdf</div>
+                    <p>test</p>
+                </div>
+                <div class="some-class">dfg</div>
+                <p class="some-class">fgh</p>
             </form>
         </td>
     </tr>

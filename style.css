@@ -1,0 +1,38 @@
+/*body {
+    background-image: url("wireframe.png");
+    background-repeat: no-repeat;
+}*/
+
+#avatar {
+    width: 100%;
+    border: 1px solid green;
+}
+
+.detail-label {
+    color: red;
+    font-size: 25px;
+}
+
+input[type="email"] {
+    background-color: blue;
+}
+
+/*p[title="bla"]#test.test-class {
+    color: red;
+}
+
+p.some-class {
+    color: red;
+}*/
+
+.some-class {
+    color: red;
+}
+
+p.some-class {
+    color: orange;
+}
+
+.some-class > p {
+    color: green;
+}
