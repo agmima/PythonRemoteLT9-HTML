@@ -36,3 +36,15 @@ p.some-class {
 .some-class > p {
     color: green;
 }
+
+.exp-one {
+    color: red
+}
+
+.exp-two {
+    color: blue;
+}
+
+.exp-three {
+    color: green;
+}
