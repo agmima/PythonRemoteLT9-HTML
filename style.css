@@ -57,24 +57,39 @@
     margin-right: 10px;
 }
 
-#experience li {
+#experience .experience-item {
     cursor: pointer;
+}
+
+#experience .expand:after {
+    content: "▼";
+}
+
+#experience .collapsed .expand:after {
+    content: "◀";
+}
+
+#experience .experience-item:after > div {
+    float: right;
 }
 
 #experience .company, #experience .period {
     font-weight: bold;
 }
 
-#experience .expand {
-    float: right;
-}
-
-#experience .description {
+#experience .experience-item > .description {
     clear: right;
     border-top: 1px solid gray;
     margin-top: 2px;
     padding-top: 5px;
+}
+
+#experience .experience-item.collapsed > .description {
     display: none;
+}
+
+#experience .expand {
+    float: right;
 }
 
 #contacts {

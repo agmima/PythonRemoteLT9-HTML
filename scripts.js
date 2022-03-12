@@ -1,8 +1,10 @@
 function toggleExperienceDescription(event) {
-    const descriptionDiv = event.target.getElementsByClassName("description")[0];
-    descriptionDiv.style.display = descriptionDiv.style.display == "block"
-        ? "none"
-        : "block";
+    const isCollapsed = event.currentTarget.classList.contains("collapsed");
+    if (isCollapsed) {
+        event.currentTarget.classList.remove("collapsed");
+    } else {
+        event.currentTarget.classList.add("collapsed");
+    }
 }
 
 const items = document.querySelectorAll("#experience .experience-item");
