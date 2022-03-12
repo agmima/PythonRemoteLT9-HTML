@@ -21,23 +21,26 @@
         <div id="experience">
             <h1>Experience</h1>
             <ul>
-                <li>
+                <li class="experience-item">
                     <span class="company">Kazkur</span>
                     <span class="period">(2010-2015)</span>
+                    <span class="expand">◀</span>
                     <div class="description">
                         Labai sunkiai dirbau.
                     </div>
                 </li>
-                <li>
+                <li class="experience-item">
                     <span class="company">Kitur</span>
                     <span class="period">(2015-2020)</span>
+                    <span class="expand">◀</span>
                     <div class="description">
                         Dar sunkiau dirbau.
                     </div>
                 </li>
-                <li>
+                <li class="experience-item">
                     <span class="company">Neaisku kur</span>
                     <span class="period">(2020-)</span>
+                    <span class="expand">◀</span>
                     <div class="description">
                         Visai nedirbau.
                     </div>
@@ -53,19 +56,19 @@
             </ul>
         </div>
         <div id="contacts">
-            <form>
+            <form id="contact-me-form">
                 <h1>Contact Me</h1>
                 <div>
-                    <input name="name" type="text" placeholder="Name">
+                    <input id="contact-name" name="name" type="text" placeholder="Name">
                 </div>
                 <div>
-                    <input name="email" type="email" placeholder="Email"></div>
+                    <input id="contact-email" name="email" type="email" placeholder="Email"></div>
                 <div>
-                    <label for="message">Message:</label><br/>
-                    <textarea id="message" name="message"></textarea>
+                    <label for="contact-message">Message:</label><br/>
+                    <textarea id="contact-message" name="message"></textarea>
                 </div>
                 <div align="right">
-                    <input type="submit" value="send">
+                    <input id="contact-submit" type="submit" value="Send">
                 </div>
             </form>
         </div>
@@ -73,4 +76,5 @@
 
 </div>
 </body>
+<script type="text/javascript" src="scripts.js"></script>
 </html>
